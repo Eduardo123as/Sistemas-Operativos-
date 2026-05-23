@@ -493,7 +493,7 @@ EJEMPLOS:
 
 777 = rwxrwxrwx
     = Todos pueden todo
-    = ⚠️ ¡NUNCA HAGAS ESTO EN PRODUCCIÓN!
+    = ¡NUNCA HAGAS ESTO EN PRODUCCIÓN!
 
 700 = rwx------
     = Solo el usuario
@@ -1653,18 +1653,7 @@ $ ./asignacionX/script.sh [args si aplica]
 
 ---
 
-# CRITERIOS DE ACEPTACIÓN
 
-Cada entrega se evalúa como:
-- ✅ **EXCELENTE**: Cumple 95-100% de requisitos
-- ✅ **BUENO**: Cumple 80-94%
-- ⚠️ **ACEPTABLE**: Cumple 70-79%
-- ❌ **INSUFICIENTE**: Menos de 70%
-
-Para PASAR la clase necesitas:
-- **Mínimo 70/100 en total**
-- **Mínimo 3 asignaciones funcionales**
-- **Código que corra sin errores**
 
 ---
 
@@ -1734,8 +1723,4 @@ set -u                  # Error si variable undefined
 
 ---
 
-**Fecha límite de entrega**: [ESPECIFICAR FECHA]
-**Formato**: ZIP con estructura de directorios
-**Enviar a**: [EMAIL O PLATAFORMA]
 
-¡Buena suerte!
