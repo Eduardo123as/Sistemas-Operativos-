@@ -1343,15 +1343,6 @@ echo "${lista[@]}"
    # - Listar los 3 directorios más grandes en /var (si acceso)
    ```
 
-2. **Permisos**
-   ```bash
-   # Crea un script que muestre:
-   # - Permisos de tu archivo ~/.bashrc (notación octal)
-   # - Propietario y grupo de /etc/passwd
-   # - Permisos simbólicos de /usr/bin/sudo
-   # Guarda en "permisos_analisis.txt"
-   ```
-
 3. **Búsqueda**
    ```bash
    # Crea un archivo "busquedas.sh" que:
@@ -1570,42 +1561,6 @@ Crea un script `file_manager.sh`:
 - Confirmación: `read -p "¿Continuar? (s/n): "`
 
 ---
-
-# RÚBRICA DE EVALUACIÓN
-
-## Asignación 1: Exploración (10 puntos)
-- **Completitud** (5 pts): Todos los archivos solicitados
-- **Exactitud** (3 pts): Información correcta
-- **Formato** (2 pts): Presentación clara
-
-## Asignación 2: Scripting Básico (20 puntos)
-- **Funcionalidad** (10 pts): El script cumple completamente
-- **Código limpio** (5 pts): Indentación, variables nombradas bien
-- **Manejo de errores** (3 pts): Validación de entrada
-- **Comentarios** (2 pts): Código documentado
-
-## Asignación 3: Backup (20 puntos)
-- **Funcionalidad completa** (12 pts): Todas las características
-- **Argumentos** (3 pts): Procesa argumentos correctamente
-- **Logging** (3 pts): backup.log generado correctamente
-- **Código limpio** (2 pts): Legibilidad
-
-## Asignación 4: Logging (15 puntos)
-- **Funciones definidas** (8 pts): Todas implementadas
-- **Formato correcto** (4 pts): Timestamps y colores
-- **Análisis de logs** (3 pts): parse_logs funciona
-
-## Asignación 5: Menú Interactivo (25 puntos)
-- **Menú funcional** (10 pts): Navega correctamente
-- **Operaciones** (10 pts): Todas funcionan
-- **UX** (3 pts): Mensajes claros, sin confusión
-- **Código robusto** (2 pts): Manejo de errores
-
-**BONUS**:
-- +10 pts: Historial de operaciones persistente
-- +5 pts: Soporte para múltiples usuarios
-- +5 pts: Interfaz mejorada (colores, emojis)
-
 ---
 
 # INDICACIONES DE ENTREGA
@@ -1628,7 +1583,7 @@ entrega_bash/
     └── file_manager.sh
 ```
 
-## README.md Debe Contener
+## Documento Debe Contener
 ```markdown
 # Entrega Bash - Nombre del Estudiante
 
